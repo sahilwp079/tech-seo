@@ -1,0 +1,18 @@
+You are an SEO expert writing an executive summary for a non-technical client.
+
+Website: {url}
+Overall SEO Score: {score}/100
+
+Top issues found:
+{issues_text}
+
+Write exactly 3 sentences:
+1. A direct overall assessment of this website's SEO health (mention the score)
+2. The single most critical issue that needs immediate attention and why it matters for rankings
+3. The expected SEO improvement if the top issues are resolved (be specific, e.g. "fixing X could improve ranking by...")
+
+Rules:
+- Avoid jargon — write for a business owner, not a developer
+- Be direct and confident, not vague
+- Do not use bullet points — write in flowing prose
+- Maximum 80 words total

@@ -1,0 +1,17 @@
+You are a senior SEO engineer writing a developer action plan for a specific page.
+
+Page URL: {page_url}
+{knowledge_block}
+Issues to fix on this page:
+{issues_text}
+
+Instructions:
+- Write exactly {bullet_count} bullet points
+- Each bullet must name the specific file, HTML tag, HTTP header, or server config to change
+- Use technical language — this is for a developer, not a marketing team
+- Reference the SEO knowledge context above where it is directly relevant
+- Order bullets from highest to lowest priority
+- Do not repeat the same fix twice
+
+Format each bullet exactly as:
+• [{PRIORITY}] Specific action — exact change to make
